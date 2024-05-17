@@ -4,12 +4,19 @@ Mini Project - Face Detection or Convert an image into gray scale image using CU
 To write a CUDA C program to convert color image into grey scale image in GPU.
 ## PROCEDURE:
 1.Load the input image using the stb_image library.
-2.Allocate memory on the GPU for the input and output image buffers.
+
+2.Allocate memory on the GPU for the input and output image buffers
+
 3.Copy the input image data from the CPU to the GPU.
+
 4.Define a CUDA kernel function that performs the grayscale conversion on each pixel of the image.
+
 5.Launch the CUDA kernel with appropriate grid and block dimensions.
-6.Copy the resulting grayscale image data from the GPU back to the CPU.
+
+6.Copy the resulting grayscale image data from the GPU back to the CPU
+
 7.Save the grayscale image using the stb_image_write library.
+
 8.Clean up allocated memory.
 ## PROGRAM:
 ```Developed by : Kanishka V S
