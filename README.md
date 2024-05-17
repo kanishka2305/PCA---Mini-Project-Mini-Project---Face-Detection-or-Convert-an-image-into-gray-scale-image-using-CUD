@@ -19,7 +19,8 @@ To write a CUDA C program to convert color image into grey scale image in GPU.
 
 8.Clean up allocated memory.
 ## PROGRAM:
-```Developed by : Kanishka V S
+```py
+Developed by : Kanishka V S
 Register Number: 212222230061
 ```
 ```py
